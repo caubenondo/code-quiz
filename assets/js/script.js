@@ -156,9 +156,11 @@ function displayScores() {
 // initialize the initial view that has start button
 function displayInitView() {
     view.innerHTML = `
+    <div class="text-center">
     <h5 class="card-title">Click the button to play</h5>
     <p class="card-text">You will have 30s to answer 5 coding questions.<br/> Every time you pick wrong answer, you will lose 5s.</p>
     <button class="btn btn-primary btnStart">Start</button>
+    </div>
     `;
     timeDisplay.style.display = "none";
 }
